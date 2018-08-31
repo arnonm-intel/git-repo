@@ -5,8 +5,7 @@
 import os
 REPO_URL = os.environ.get('REPO_URL', None)
 if not REPO_URL:
-  # REPO_URL = 'https://gerrit.googlesource.com/git-repo'
-  REPO_URL = 'https://github.com/esrlabs/git-repo'
+  REPO_URL = 'https://github.com/arnonm-intel/git-repo'
 REPO_REV = 'stable'
 
 # Copyright (C) 2008 Google Inc.
@@ -24,7 +23,7 @@ REPO_REV = 'stable'
 # limitations under the License.
 
 # increment this whenever we make important changes to this script
-VERSION = (1, 25)
+VERSION = (1, 26)
 
 # increment this if the MAINTAINER_KEYS block is modified
 KEYRING_VERSION = (1, 3)
